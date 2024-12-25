@@ -23,7 +23,10 @@ boost, K-nearest neighbors, random forest, extreme gradient
 boost, and categorial boostin </h3>
 <br>
 <h2>Machine learning Models</h2>
-<h3> Gradientboost, K-nearest neighbors, random forest, extreme gradient boost, and categorial boostin</h3>
+<h3> Gradientboost, K-nearest neighbors, Random forest, Extreme gradient boost, and Categorial boostin</h3>
+<br>
+<h2>Features used in the machine learning models</h2>
+<h3>Followers, Average Likes, Average Comments, Engagement Rate (60days), Posting Frequency (60days), Post (image), Post(video), Post(Carousel)</h3>
 <br>
 <h4>Report: <a href="https://www.overleaf.com/project/673d686b99e4998b188d6e1d">https://www.overleaf.com/project/673d686b99e4998b188d6e1d</a></h4>
 <h4>PPT link:<a href="https://www.canva.com/design/DAGZbvmqOIg/8FXAP1hayWKL0m3Hgp9gBQ/edit">https://www.canva.com/design/DAGZbvmqOIg/8FXAP1hayWKL0m3Hgp9gBQ/edit</a></h4>
