@@ -1,4 +1,4 @@
-<h1>Project Overview></h1> 
+<h1>Project Overview</h1> 
 <br>
 <h2>Project Name: Engagement rate prediction</h2>
 <br>
