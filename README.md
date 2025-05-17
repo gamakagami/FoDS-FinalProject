@@ -1,32 +1,75 @@
-<h1>Project Overview</h1> 
-<br>
-<h2>Project Name: Engagement rate prediction</h2>
-<br>
-<h3> Project Members</h3>
-  <ul>1. Gabriel Anderson</ul>
-  <ul>2. Rafael Anderson</ul>
-  <ul>3. Albertus Santoso</ul>
-<br>
-<h3> Class L3AC </h3>
-<br>
-<h2>Project Name: Engagement rate prediction</h2>
-<br>
-<h3> Social media platforms, specifically Instagram, have become
-an essential tool for both individuals and large brands to
-engage with their audiences. Understanding the features that
-affect the engagement rate is crucial to maximize the engage-
-ment rate received from your audience. This study tackles
-the challenges on predicting the engagement received by a
-particular Instagram account, by applying machine learning
-models. These machine learning models include gradient
-boost, K-nearest neighbors, random forest, extreme gradient
-boost, and categorial boostin </h3>
-<br>
-<h2>Machine learning Models</h2>
-<h3> Gradientboost, K-nearest neighbors, Random forest, Extreme gradient boost, and Categorial boostin</h3>
-<br>
-<h2>Features used in the machine learning models</h2>
-<h3>Followers, Average Likes, Average Comments, Engagement Rate (60days), Posting Frequency (60days), Post (image), Post(video), Post(Carousel)</h3>
-<br>
+# Engagement Rate Prediction using Machine Learning
 
-<h4>PPT link:<a href="https://www.canva.com/design/DAGZbvmqOIg/8FXAP1hayWKL0m3Hgp9gBQ/edit">https://www.canva.com/design/DAGZbvmqOIg/8FXAP1hayWKL0m3Hgp9gBQ/edit</a></h4>
+## Overview
+This project predicts Instagram engagement rates using supervised machine learning. By analyzing key account and content features, it provides valuable insights for brands and marketers to optimize influencer selection and improve engagement performance.
+
+## Documentation
+- [Project Documentation](documentation/A5_Engagement_Rate_Prediction%20(4).pdf) - Detailed project report and analysis
+
+## Key Features
+- Collected and merged datasets using `Instaloader` (scraped) and public sources (Kaggle)
+- Performed extensive preprocessing and feature engineering
+- Trained and evaluated multiple machine learning models
+- Delivered business-relevant insights on engagement trends across influencer types and content formats
+
+## Machine Learning Models
+- XGBoost (best performance, R² = 0.94)
+- Gradient Boosting Regressor
+- CatBoost
+- K-Nearest Neighbors (KNN)
+- Random Forest
+- Decision Tree
+- Linear Regression
+- Support Vector Machine (SVM)
+
+## Features Used
+- `Followers`
+- `Average Likes`
+- `Average Comments`
+- `Engagement Rate (60 days)`
+- `Posting Frequency (60 days)`
+- `Posts (Image)`
+- `Posts (Video)`
+- `Posts (Carousel)`
+
+## Results
+- **XGBoost** achieved the best performance with an R² score of **0.94** and **lowest RMSE**
+- **Video and carousel posts** received higher engagement than image posts
+- **Nano influencers** had the highest median engagement rates, outperforming mega influencers
+- **Hashtag count** had minimal impact on engagement rates
+
+## Technologies & Tools
+- Python, Pandas, NumPy
+- Scikit-learn, XGBoost, CatBoost
+- Matplotlib, Seaborn
+- Instaloader (for Instagram scraping)
+
+## Project Structure
+```
+├── data/          # Raw and processed datasets
+├── models/        # Trained models
+├── notebooks/     # EDA and results
+├── src/          # Source code (preprocessing, training)
+├── requirements.txt
+└── README.md
+```
+
+## Running the Project
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the main model training script:
+```bash
+cd src
+python main.py
+```
+
+## Future Improvements
+- Expand dataset to include other platforms (TikTok, X/Twitter)
+- Integrate real-time prediction via backend API
+- Incorporate NLP features from captions/hashtags to improve model inputs
+
+## PPT Link
+[PPT Link](https://www.canva.com/design/DAGZbvmqOIg/8FXAP1hayWKL0m3Hgp9gBQ/edit)
